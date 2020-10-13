@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: acd-faq
+  cloud:
+    config:
+      failFast: true
+      uri: http://10.10.1.41:30386
+  liquibase:
+    enabled: false
